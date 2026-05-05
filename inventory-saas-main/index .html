@@ -769,11 +769,9 @@
 <div id="toast"></div>
 
 <script>
-  // ═══════════════════════════════════════════
-  // CONFIG — Change this to your API base URL
-  // ═══════════════════════════════════════════
-  const API = 'http://localhost:3000/api';
 
+  
+const API = 'https://inventory-saas-main.onrender.com/api';
   // ─── State ───────────────────────────────────
   let token = localStorage.getItem('token') || null;
   let currentUser = JSON.parse(localStorage.getItem('user') || 'null');
